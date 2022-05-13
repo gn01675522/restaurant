@@ -12,7 +12,7 @@
           <input type="text" name="keyword" class="form-control" placeholder="輸入餐廳、分類" aria-label="Restaurant Name..."
             value="{{keyword}}" aria-describedby="search-button">
           <div class="input-group-append">
-            <button class="btn btn-major" type="submit" id="search-button"><i class="fas fa-search"></i></button>
+            <button class="btn btn-major" type="submit" id="search-button" onclick ="searchError()"><i class="fas fa-search"></i></button>
           </div>
         </div>
       </form>
@@ -48,6 +48,15 @@
         </a>
         {{/each}}
 
+
+        <script>
+          function searchError() {
+            const keyword = document.querySelector('input').value
+            if (keyword.trim() === '' || keyword.length === 0) {
+              alert('請輸入正確的關鍵字！')
+            }
+          }
+        </script>
       </div>
     </div>
   </div>

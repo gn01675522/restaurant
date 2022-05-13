@@ -21,6 +21,7 @@
   "homepage": "https://github.com/gn01675522/restaurant_List#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.5"
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.16"
   }
 }

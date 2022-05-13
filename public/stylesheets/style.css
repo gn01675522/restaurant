@@ -1,9 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 header {
 	overflow: hidden;
 }
 
 .navbar .navbar-brand {
 	color: #4592af;
+}
+
+#nav-bar {
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
 }
 
 .navbar .navbar-brand:hover {

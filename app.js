@@ -17,7 +17,19 @@ app.get('/', (req, res) => {
 
 app.get('/search', (req, res) => {
 	const restaurant = restaurantList.results.filter((restaurant) => {
-		return restaurant.name.toLowerCase().includes(req.query.keyword.toLowerCase());
+		const name = restaurant.name.toLowerCase().trim().includes(req.query.keyword.toLowerCase().trim());
+		const category = restaurant.category.toLowerCase().trim().includes(req.query.keyword.toLowerCase().trim());
+		const name_en = restaurant.name_en.toLowerCase().trim().includes(req.query.keyword.toLowerCase().trim());
+		const location = restaurant.location.toLowerCase().trim().includes(req.query.keyword.toLowerCase().trim());
+		if (name === true) {
+			return name;
+		} else if (category === true) {
+			return category;
+		} else if (name_en === true) {
+			return name_en;
+		} else if (location === true) {
+			return location;
+		}
 	});
 	res.render('index', { restaurants: restaurant, keyword: req.query.keyword });
 });
