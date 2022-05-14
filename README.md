@@ -21,4 +21,9 @@
     <pre><code>nodemon app.js</code></pre>
   5. 若您於 terminal 中看見以下訊息，則代表成功啟動 server ：
     <pre><code>Server is listening on port:3000</code></pre>
+  6. 接著在您的瀏覽器輸入 http://localhost:3000/ 即可前往專案網頁；若想要中斷執行可於 terminal 中按 ctrl + c 即可中斷！
 ## 開發工具
+  1. node.js：16.14.2
+  2. express：4.18.1
+  3. express-handlebars：6.06
+  4. nodemon：2.0.16
