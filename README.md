@@ -10,7 +10,7 @@
   並依序於該 terminal 執行以下步驟：
 
   1. 複製此專案於您本機資料夾，可參照以下指令：
-    <pre><code>git clone https://github.com/gn01675522/restaurant.git</code>
+    <pre><code>git clone `https://github.com/gn01675522/restaurant.git`</code>
   2. 將 terminal 路徑指向至您存放此專案之資料夾，並將路徑切換至專案資料夾：
     <pre><code>cd restaurant</code></pre>
   3. 接著執行下列指令來安裝 npm 、 express 、 nodemon
