@@ -10,15 +10,15 @@
   並依序於該 terminal 執行以下步驟：
 
   1. 複製此專案於您本機資料夾，可參照以下指令：
-    <code>`git clone https://github.com/gn01675522/restaurant.git`</code>
+    <pre><code>git clone https://github.com/gn01675522/restaurant.git</code>
   2. 將 terminal 路徑指向至您存放此專案之資料夾，並將路徑切換至專案資料夾：
-    <code>`cd restaurant`</code>
+    <pre><code>cd restaurant</code></pre>
   3. 接著執行下列指令來安裝 npm 、 express 、 nodemon
-    <code>`npm install`</code>
-    <code>`npm i express`</code>
-    <code>`npm i nodemon`</code>
+    <pre><code>npm install</code></pre>
+    <pre><code>npm i express</code></pre>
+    <pre><code>npm i nodemon</code></pre>
   4. 再來輸入下列指令：
-    <code>`nodemon app.js`</code>
+    <pre><code>nodemon app.js</code></pre>
   5. 若您於 terminal 中看見以下訊息，則代表成功啟動 server ：
-    <code>`Server is listening on port:3000`</code>
+    <pre><code>Server is listening on port:3000</code></pre>
 ## 開發工具
