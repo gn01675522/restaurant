@@ -64,7 +64,7 @@ header {
 }
 
 .card-columns {
-	text-align: left;
+	text-align: center;
 	column-count: 3;
 	column-gap: 1.25rem;
 	orphans: 1;
