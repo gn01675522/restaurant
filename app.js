@@ -36,5 +36,5 @@ app.get('/restaurants/:restaurants_id', (req, res) => {
 
 //start and listen on server
 app.listen(port, () => {
-	console.log(`Server is listening on port:${port}`);
+	console.log(`Server is listening on port:${port}！`);
 });
